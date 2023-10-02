@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $(ls)
+for entry in $(ls);do
+	echo $entry
+done
